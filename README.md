@@ -7,7 +7,7 @@ This project tackles the Kaggle House Prices - Advanced Regression Techniques co
 The dataset is provided by Kaggle and contains 79 explanatory variables describing various aspects of residential homes. It includes both numerical and categorical features.
 - **Train Data**: `train.csv` (1,460 entries)
 - **Test Data**: `test.csv` (1,459 entries)
-- **Competition**: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+- **Dataset Obtained From Competition**: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
 ## Key Steps
 
@@ -58,14 +58,14 @@ The dataset is provided by Kaggle and contains 79 explanatory variables describi
 
 2. **Install dependencies:**
    ```bash
-   pip install pandas numpy scipy scikit-learn matplotlib seaborn xgboost catboost lightgbm
+   pip install pandas numpy scipy scikit-learn matplotlib seaborn xgboost catboost lightgbm streamlit
    ```
 
 ## Usage
 
-1. **Download the dataset** from Kaggle and place `train.csv` and `test.csv` in the project directory.
+1. **Download the dataset**  place `train.csv` and `test.csv` in the project directory.
 
-2. **Run the Jupyter Notebook** `kaggle-housing-data.ipynb` step by step:
+2. **Run the Jupyter Notebook** `Housing-Data-Model.ipynb` step by step:
    - Data loading and inspection
    - Exploratory Data Analysis (EDA)
    - Data preprocessing
@@ -86,12 +86,9 @@ The dataset is provided by Kaggle and contains 79 explanatory variables describi
 - `catboost`
 - `lightgbm`
 
-## License
-This project is licensed under the MIT License.
-
-
 ### Future Improvements:
 - Advanced feature engineering
 - Hyperparameter tuning
 - Ensembling optimization
 - Detailed error analysis
+- use of Neural Networks
